@@ -1,0 +1,61 @@
+/* Reset básico */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo general */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background: #35495e;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header li {
+    margin: 0 15px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+  }body {
+    background-color: lightblue; /* Cambia el color del fondo */
+    color: black; /* Cambia el color del texto */
+  }
+  h1 {
+    color: darkblue; /* Color del texto del encabezado */
+    background-color: yellow; /* Fondo del encabezado */
+  }
